@@ -1,0 +1,23 @@
+{
+    "name": "efren/ejercicio1",
+    "description": "proyecto de api rest 1",
+    "type": "project",
+    "license": "none",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "pecee/simple-router": "5.4.1.7"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "friendsofphp/php-cs-fixer": "^3.49"
+    }
+}
